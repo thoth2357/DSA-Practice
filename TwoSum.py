@@ -33,4 +33,7 @@ Verbal solution:
 Was an Easy One. Realized one has to use each item to add other items in the list and not adding itself though.so i made use of two loop one to get current value for addition 
 and another loop to go through the other element in the array to add current value and check if their sum gives our target.
 Time Spent:3Min
+Got excited and submitted.Failed realized i didnt handle some test cases of where the same integer existed in two places,came back and solved it in previous commits.
+just putting this out for honesty. shameful though..
+I Failed Thoth 🤕😭
 """
