@@ -16,13 +16,11 @@ from typing import List
 
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        for i in range(len(nums)):
-            for j in range(i + 1, len(nums)):
-                # print(nums[i], nums[j])
-                if nums[i] + nums[j] == target:
-                    return [i, j]
-        return []
-
+        empty_dict = {}
+        for i,j in enumerate(nums):
+            if target - j in empty_dict:
+                return [empty_dict[target - j], i]
+            empty_dict[j] = i
 
 solution = Solution()
 print(solution.twoSum([2, 5, 5, 11], 10))
