@@ -38,12 +38,12 @@ For a complete CS self-taught program, the resources for my study plan have been
 
 ### The Study Plan
 
-- [ ] [What is it?](#what-is-it)
-- [ ] [Why use it?](#why-use-it)
-- [ ] [How to use it](#how-to-use-it)
-- [ ] [Don't feel you aren't smart enough](#dont-feel-you-arent-smart-enough)
-- [ ] [A Note About Video Resources](#a-note-about-video-resources)
-- [ ] [Choose a Programming Language](#choose-a-programming-language)
+- [x] [What is it?](#what-is-it)
+- [x] [Why use it?](#why-use-it)
+- [x] [How to use it](#how-to-use-it)
+- [x] [Don't feel you aren't smart enough](#dont-feel-you-arent-smart-enough)
+- [x] [A Note About Video Resources](#a-note-about-video-resources)
+- [x] [Choose a Programming Language](#choose-a-programming-language)
 - [ ] [Books for Data Structures and Algorithms](#books-for-data-structures-and-algorithms)
 - [ ] [Interview Prep Books](#interview-prep-books)
 - [ ] [Don't Make My Mistakes](#dont-make-my-mistakes)
@@ -159,64 +159,6 @@ For a complete CS self-taught program, the resources for my study plan have been
 
 ---
 
-## Why use it?
-
-If you want to work as a software engineer for a large company, these are the things you have to know.
-
-If you missed out on getting a degree in computer science, like I did, this will catch you up and save four years of your life.
-
-When I started this project, I didn't know a stack from a heap, didn't know Big-O anything, or anything about trees, or how to
-traverse a graph. If I had to code a sorting algorithm, I can tell ya it would have been terrible.
-Every data structure I had ever used was built into the language, and I didn't know how they worked
-under the hood at all. I never had to manage memory unless a process I was running would give an "out of
-memory" error, and then I'd have to find a workaround. I used a few multidimensional arrays in my life and
-thousands of associative arrays, but I never created data structures from scratch.
-
-It's a long plan. It may take you months. If you are familiar with a lot of this already it will take you a lot less time.
-
-**[⬆ back to top](#table-of-contents)**
-
-## How to use it
-
-Everything below is an outline, and you should tackle the items in order from top to bottom.
-
-I'm using GitHub's special markdown flavor, including tasks lists to track progress.
-
-- [ ] [More about GitHub-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
-
-### If you don't want to use git
-
-On this page, click the Code button near the top, then click "Download ZIP". Unzip the file and you can work with the text files.
-
-If you're open in a code editor that understands markdown, you'll see everything formatted nicely.
-
-![How to download the repo as a zip file](https://d3j2pkmjtin6ou.cloudfront.net/how-to-download-as-zip.png)
-
-### If you're comfortable with git
-
-Create a new branch so you can check items like this, just put an x in the brackets: [x]
-
-1. ***Fork the GitHub repo:*** `https://github.com/jwasham/coding-interview-university` by clicking on the Fork button.
-
-    ![Fork the GitHub repo](https://d3j2pkmjtin6ou.cloudfront.net/fork-button.png)
-
-1. Clone to your local repo:
-
-    ```bash
-    git clone https://github.com/<YOUR_GITHUB_USERNAME>/coding-interview-university.git
-    cd coding-interview-university
-    git remote add upstream https://github.com/jwasham/coding-interview-university.git
-    git remote set-url --push upstream DISABLE  # so that you don't push your personal progress back to the original repo
-    ```
-
-1. Mark all boxes with X after you completed your changes:
-
-    ```bash
-    git commit -am "Marked personal progress"
-    git pull upstream main  # keep your fork up-to-date with changes from the original repo
-
-    git push # just pushes to your fork
-    ```
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -311,7 +253,7 @@ Just choose one, in a language that you will be comfortable with. You'll be doin
 
 ### Python
 
-- [ ] [Data Structures and Algorithms in Python](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
+- [x] [Data Structures and Algorithms in Python](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
   - [ ] by Goodrich, Tamassia, Goldwasser
   - [ ] I loved this book. It covered everything and more.
   - [ ] Pythonic code
